@@ -1,3 +1,7 @@
+### Motivation:
+
+PostgreSQL database Deployment is provided with intentionally injected issues for troubleshooting purposes.
+
 #### Generated a Secret:
 
 kubectl create secret generic postgres-secret --from-literal=postgres-password=your-password-here
